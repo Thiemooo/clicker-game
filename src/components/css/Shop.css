@@ -1,0 +1,24 @@
+.shop {
+  border-left: 1px solid black;
+  height: 100%;
+}
+
+.shop h1 {
+  border-bottom: 1px solid black;
+  text-align: center;
+  text-shadow: 3px 3px 1px gray;
+}
+
+.shop-content {
+  height: calc(100% - 2.6rem);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.shop-item {
+  display: flex;
+}
+
+.shop-item > * {
+  width: 100%;
+}

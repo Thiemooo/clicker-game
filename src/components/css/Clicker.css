@@ -1,0 +1,27 @@
+.clicker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.clicker button {
+  height: fit-content;
+  padding: 10rem;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  border: none;
+  outline: none;
+  user-select: none;
+  box-shadow: 0 0 20px black;
+  transition: box-shadow 0.1s
+}
+
+.clicker button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 40px black;
+}
+
+.clicker button:active {
+  box-shadow: 0 0 25px black;
+}

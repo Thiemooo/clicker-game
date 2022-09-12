@@ -1,0 +1,42 @@
+.shopitem {
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.shopitem h2 {
+  border-bottom: 1px solid black;
+}
+
+.shopitem-content {
+  height: calc(100% - 1.8rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.shopitem-top {
+  font-size: 2rem;
+  margin-left: 5px;
+  text-shadow: 2px 2px 1px gray;
+}
+
+.shopitem-mid {
+  font-size: 1.5rem;
+  letter-spacing: -1px;
+  margin-left: 1.5rem;
+}
+
+.shopitem-mid p:nth-child(3) {
+  margin-top: 10px;
+}
+
+.shopitem-bot button {
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 100%;
+  border: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  outline: none;
+}
